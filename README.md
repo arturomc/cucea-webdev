@@ -41,5 +41,12 @@ Pero aqui algunos comandos utiles
 Have fun, class! cualquier duda o pregunta, estaré en whatsapp y en slack
 
 
+# Server
+
+En la carpeta [`server`] se encuentra la configuracion del servidor, para iniciar un proyecto con node, usar `npm init`, y
+llenar los datos correspondientes al proyecto. El proyecto esta crudo.
+
+**NOTA:** RECUERDEN HACER TODO FUERA DE **MASTER**
+
 
 
