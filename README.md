@@ -26,6 +26,19 @@ Pero aqui algunos comandos utiles
 
 `git push origin {rama-a-la-cual-subir-los-cambios}` este comando subira los puntos de commit y cambios al repositorio remoto
 
+
+### Server
+
+La carpeta [Server] tiene un package.json listo para ser usado. Para instalar
+modulos usa: `npm
+install`, por ejemplo si quieres instalar mongoose usa: `npm install --save mongoose`, para saber porque se uso --save ve a la documentacion de npm que se encuentra justo aqui: [npm](https://docs.npmjs.com/)
+
+### Cliente
+
+La carpeta (Client) tiene el [Quickstart](https://github.com/angular/quickstart) de [angular](https://angular.io/docs/ts/latest/quickstart.html) listo para usarse, ve y revisa la documentacion [angular](https://angular.io/docs/ts/latest/quickstart.html)
+
+
+
 ### Tarea para el 25 de marzo
 
 1. Definir quien tomara las siguientes responsabilidades en la app y estudiar los temas correspondientes
