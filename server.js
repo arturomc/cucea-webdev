@@ -14,11 +14,11 @@ module.exports = {
 var app = express();
 var bodyParser = require('body-parser');
 
-app.use(bodyParser);
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded());
     
 app.get('/', function (req, res) {
-  res.send('Hello world');
-
+  res.send('GET request was listen');
 });
 
 // POST method route
