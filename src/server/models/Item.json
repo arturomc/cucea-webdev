@@ -1,0 +1,8 @@
+{
+    "id" : "int",
+    "name" : "string",
+    "price" : "number",
+    "description" : "string",
+    "extra" : "[]",
+    "image": "string"
+}
