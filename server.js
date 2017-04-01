@@ -1,4 +1,16 @@
+//Instanciando express y mongoose
 var express = require('express');
+var mongoose	= require('mongoose');
+
+mongoose.connect(conf.db.url);
+
+//Modelo: Base de datos elchilaquil
+module.exports = {
+    db: {
+        url: "mongodb://127.0.0.1:27017/elchilaquilDB"
+    }
+}
+
 var app = express();
 var bodyParser = require('body-parser');
 
