@@ -1,0 +1,5 @@
+# node files
+node_modules
+
+# visual studio project folder
+.vscode
