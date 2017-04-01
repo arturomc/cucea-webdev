@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/SadotCorts/cucea-webdev#readme",
   "dependencies": {
-    "body-parser": "^1.17.1"
+    "body-parser": "^1.17.1",
+    "mongoose": "^4.9.2"
   }
 }
