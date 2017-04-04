@@ -11,5 +11,5 @@ var products = new Schema({
     image: String,
 }) 
 
-//Exportar productsSchema
+//Exportar products
 mongoose.model('products', products);
